@@ -1,0 +1,12 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "description": "Template app: replace with what your app does.",
+  "permissions": {
+    "log": true
+  },
+  "limits": {
+    "memory_kb": 64,
+    "call_timeout_ms": 2000
+  }
+}
