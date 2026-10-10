@@ -28,7 +28,7 @@ Part of [esp-claw (community)](https://github.com/esp-claw), an unofficial commu
    python3 sdk/tools/wasm_check.py build
    ```
 
-   The build needs clang with the wasm32 target and wasm-ld (Debian/Ubuntu: `apt install clang lld`). CI runs the same steps through the reusable workflow `esp-claw/app-sdk/.github/workflows/app-build.yml`.
+   The build needs clang with the wasm32 target and wasm-ld (Debian/Ubuntu: `apt install clang lld`). CI runs the same steps through the reusable workflow `esp-claw/app-sdk/.github/workflows/app-build.yml@v1`.
 
 5. **Try it on a development device.** Set `app_allow_unsigned` to `true` in the device config and reboot. Then copy `build/manifest.json` and `build/app.wasm` to `/apps/<name>/`, for example over WebDAV, and send `/apps reload <name>` in Telegram.
 
